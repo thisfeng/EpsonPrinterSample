@@ -1,7 +1,7 @@
 # EpsonPrinterSample
 
 
-[EPSON Printer 打印机 Sdk For Android](http://www.jianshu.com/p/178dcb046e56)
+简书介绍 [EPSON Printer 打印机 Sdk For Android](http://www.jianshu.com/p/178dcb046e56)
 
 ##### EPOSN SDK 打印的步骤
 
