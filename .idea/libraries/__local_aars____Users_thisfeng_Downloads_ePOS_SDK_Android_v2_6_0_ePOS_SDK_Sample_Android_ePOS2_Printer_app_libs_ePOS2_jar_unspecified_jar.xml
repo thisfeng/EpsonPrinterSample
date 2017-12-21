@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_aars__:/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/libs/ePOS2.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ePOS2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

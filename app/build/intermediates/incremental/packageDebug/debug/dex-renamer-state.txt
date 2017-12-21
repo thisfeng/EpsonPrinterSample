@@ -1,0 +1,4 @@
+#Wed Dec 20 23:03:38 CST 2017
+base.0=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/transforms/dexMerger/debug/76
+renamed.0=classes.dex
+file.0=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/transforms/dexMerger/debug/76/classes.dex

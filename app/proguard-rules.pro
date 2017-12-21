@@ -1,0 +1,2 @@
+-keep class com.epson.** { *; }
+-dontwarn com.epson.**
