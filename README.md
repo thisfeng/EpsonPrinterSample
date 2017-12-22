@@ -1,4 +1,8 @@
 # EpsonPrinterSample
+
+
+简书介绍 [EPSON Printer 打印机 Sdk For Android](http://www.jianshu.com/p/178dcb046e56)
+
 ##### EPOSN SDK 打印的步骤
 
 - 1 先开启发现打印机设备，完后会有个回调监听获取已连接的打印机设备的 TargetId；
