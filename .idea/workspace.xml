@@ -10,48 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a387d54-cff9-4e19-b512-e2fbe3723b21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/DiscoveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/DiscoveryActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/epson/epos2_printer/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/jPOo+rH4e2mOzXnP4_FNNAcr524=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/jPOo+rH4e2mOzXnP4_FNNAcr524=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/DiscoveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/DiscoveryActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/epson/epos2_printer/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/epson/epos2_printer/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/epson/epos2_printer/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,8 +99,8 @@
       <file leaf-file-name="ReceiptPrinter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="229" column="12" lean-forward="false" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="247" column="64" lean-forward="true" selection-start-line="247" selection-start-column="64" selection-end-line="247" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6702#6703#0" expanded="true" />
@@ -2508,7 +2467,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914351524" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475560" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2556,7 +2515,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914351524" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475560" />
       </method>
     </configuration>
     <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
@@ -2773,7 +2732,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914351526" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475562" />
       </method>
     </configuration>
     <list size="3">
@@ -2830,7 +2789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513823924485</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="this 封装打印类 直接调用">
+      <created>1513914390384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513914390384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2848,7 +2814,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51482797" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2901,7 +2867,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="this all project" />
     <MESSAGE value="this fix README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="this fix README.md" />
+    <MESSAGE value="this 封装打印类 直接调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="this 封装打印类 直接调用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3540,8 +3507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="229" column="12" lean-forward="false" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="247" column="64" lean-forward="true" selection-start-line="247" selection-start-column="64" selection-end-line="247" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6702#6703#0" expanded="true" />
