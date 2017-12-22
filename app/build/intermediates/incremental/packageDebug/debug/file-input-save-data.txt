@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Dec 22 09:48:14 CST 2017
+#Fri Dec 22 10:55:27 CST 2017
 8.set=ANDROID_RESOURCE
 1.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 1.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png

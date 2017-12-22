@@ -25,6 +25,7 @@ import com.epson.epos2.Log;
  * epson的底层已经为我们封装了printer方法，里面很多需要通过指令集操作的都被一一封装成了逐一的方法。详情请看打印
  */
 public class MainActivity extends Activity implements View.OnClickListener, ReceiveListener {
+    ReceiptPrinter receiptPrinter;
 
     private Context mContext = null;
     private EditText mEditTarget = null;
@@ -94,6 +95,19 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             ShowMsg.showException(e, "setLogSettings", mContext);
         }
         mEditTarget = (EditText) findViewById(R.id.edtTarget);
+        findViewById(R.id.btnTest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String json = "#CENTER\n" +
+                        "在線訂座入座終端編號(重印)\n" +
+                        "分店：紅磡漁港\n" +
+                        "終端編號：STATION\n";
+
+                ReceiptPrinter.getInstance().runPrintReceiptSequence(MainActivity.this, json);
+
+            }
+        });
     }
 
 
@@ -652,8 +666,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 //                new Thread(new Runnable() {
 //                    @Override
 //                    public void run() {
-                        //执行完之后断开当前打印
-                        disconnectPrinter();
+                //执行完之后断开当前打印
+                disconnectPrinter();
 //                    }
 //                }).start();
             }
