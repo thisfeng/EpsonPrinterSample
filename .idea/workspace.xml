@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1a387d54-cff9-4e19-b512-e2fbe3723b21" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -35,6 +38,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="197">
               <caret line="82" column="73" lean-forward="false" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
               <folding>
@@ -44,11 +48,67 @@
                 <marker date="1513914487000" expanded="true" signature="22935:22976" ph="{...}" />
                 <marker date="1513914487000" expanded="true" signature="22935:22986" ph="{...}" />
                 <marker date="1513914487000" expanded="true" signature="22935:22994" ph="{...}" />
+=======
+            <state relative-caret-position="327">
+              <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1664#1679#0" expanded="true" />
+                <element signature="e#1863#1900#0" expanded="true" />
+                <element signature="e#1964#2001#0" expanded="true" />
+                <element signature="e#2065#2102#0" expanded="true" />
+                <element signature="e#2166#2203#0" expanded="true" />
+                <element signature="e#2267#2306#0" expanded="true" />
+                <element signature="e#2372#2409#0" expanded="true" />
+                <element signature="e#2473#2510#0" expanded="true" />
+                <element signature="e#2574#2611#0" expanded="true" />
+                <element signature="e#2675#2712#0" expanded="true" />
+                <element signature="e#2776#2813#0" expanded="true" />
+                <element signature="e#2877#2914#0" expanded="true" />
+                <element signature="e#2978#3015#0" expanded="true" />
+                <element signature="e#3079#3116#0" expanded="true" />
+                <element signature="e#3180#3217#0" expanded="true" />
+                <element signature="e#3281#3320#0" expanded="true" />
+                <element signature="e#3386#3424#0" expanded="true" />
+                <element signature="e#3489#3527#0" expanded="true" />
+                <element signature="e#3592#3629#0" expanded="true" />
+                <element signature="e#3693#3732#0" expanded="true" />
+                <element signature="e#3960#3975#0" expanded="true" />
+                <element signature="e#4155#4183#0" expanded="true" />
+                <element signature="e#4248#4281#0" expanded="true" />
+                <element signature="e#4351#4383#0" expanded="true" />
+                <element signature="e#4452#4483#0" expanded="true" />
+                <element signature="e#4551#4582#0" expanded="true" />
+                <element signature="e#4650#4679#0" expanded="true" />
+                <element signature="e#4745#4779#0" expanded="true" />
+                <element signature="e#5881#5913#0" expanded="true" />
+                <element signature="e#19160#19161#0" expanded="true" />
+                <element signature="e#19248#19249#0" expanded="true" />
+                <element signature="e#19907#19950#0" expanded="true" />
+                <element signature="e#20036#20083#0" expanded="true" />
+                <element signature="e#20167#20213#0" expanded="true" />
+                <element signature="e#20300#20347#0" expanded="true" />
+                <element signature="e#20479#20525#0" expanded="true" />
+                <element signature="e#20674#20720#0" expanded="true" />
+                <element signature="e#20741#20789#0" expanded="true" />
+                <element signature="e#20884#20929#0" expanded="true" />
+                <element signature="e#21103#21147#0" expanded="true" />
+                <element signature="e#21172#21212#0" expanded="true" />
+                <element signature="e#21325#21369#0" expanded="true" />
+                <element signature="e#21394#21435#0" expanded="true" />
+                <element signature="e#21550#21594#0" expanded="true" />
+                <element signature="e#21619#21662#0" expanded="true" />
+                <element signature="e#21772#21819#0" expanded="true" />
+                <element signature="e#21931#21983#0" expanded="true" />
+                <element signature="e#22372#22425#0" expanded="true" />
+                <element signature="e#22532#22585#0" expanded="true" />
+>>>>>>> Test
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,21 +127,80 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+=======
+      <file leaf-file-name="ReceiptPrinter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="247" column="64" lean-forward="true" selection-start-line="247" selection-start-column="64" selection-end-line="247" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6702#6703#0" expanded="true" />
+                <element signature="e#6790#6791#0" expanded="true" />
+                <element signature="e#7304#7356#0" expanded="true" />
+                <element signature="e#7442#7498#0" expanded="true" />
+                <element signature="e#7582#7637#0" expanded="true" />
+                <element signature="e#7724#7780#0" expanded="true" />
+                <element signature="e#7912#7967#0" expanded="true" />
+                <element signature="e#8116#8171#0" expanded="true" />
+                <element signature="e#8192#8249#0" expanded="true" />
+                <element signature="e#8344#8398#0" expanded="true" />
+                <element signature="e#8572#8625#0" expanded="true" />
+                <element signature="e#8650#8699#0" expanded="true" />
+                <element signature="e#8812#8865#0" expanded="true" />
+                <element signature="e#8890#8940#0" expanded="true" />
+                <element signature="e#9055#9108#0" expanded="true" />
+                <element signature="e#9133#9185#0" expanded="true" />
+                <element signature="e#9295#9351#0" expanded="true" />
+                <element signature="e#9463#9524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="89" column="40" lean-forward="false" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+>>>>>>> Test
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="ShowMsg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ShowMsg.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="29" />
+=======
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+>>>>>>> Test
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
@@ -98,10 +217,47 @@
                 <marker date="1513914487000" expanded="true" signature="1368:1530" ph="..." />
                 <marker date="1513914487000" expanded="false" signature="1441:1460" ph="&quot;ePOS2 Printer&quot;" />
               </folding>
+=======
+      <file leaf-file-name="ShowMsg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ShowMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="29" />
+              <folding />
+>>>>>>> Test
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding />
+=======
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <marker date="1513907575000" expanded="true" signature="783:1377" ph="..." />
+                <marker date="1513907575000" expanded="false" signature="851:870" ph="&quot;ePOS2 Printer&quot;" />
+                <marker date="1513907575000" expanded="true" signature="948:1214" ph="..." />
+                <marker date="1513907575000" expanded="false" signature="1469:1488" ph="&quot;ePOS2 Printer&quot;" />
+              </folding>
+>>>>>>> Test
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,6 +268,7 @@
           </provider>
         </entry>
       </file>
+>>>>>>> Test
       <file leaf-file-name="ePOS2_Printer.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ePOS2_Printer.iml">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,7 +300,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btnSampleCoupon</find>
       <find>barcodeWidthPos</find>
       <find>edtWarnings</find>
       <find>mPrinter</find>
@@ -156,7 +312,6 @@
       <find>addTextSize</find>
       <find>Target</find>
       <find>ShowMsg</find>
-      <find>makeErrorMessage</find>
       <find>connectPrinter</find>
       <find>dispPrinterWarnings</find>
       <find>LANG_ZH_CN</find>
@@ -168,11 +323,25 @@
       <find>Log</find>
       <find>Printer.LANG_ZH_</find>
       <find>LANG_ZH_TW</find>
+<<<<<<< HEAD
+=======
+      <find>onPtrReceive</find>
+      <find>createReceiptData</find>
+      <find>finalizeObject</find>
+      <find>isPrintable</find>
+      <find>makeErrorMessage</find>
+      <find>printData</find>
+>>>>>>> Test
       <find>disconnectPrinter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2042,15 +2211,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/TestPrint.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/ablegenius/dw/com/test/Main.java" />
         <option value="$PROJECT_DIR$/test/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/DiscoveryActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java" />
       </list>
     </option>
   </component>
@@ -2260,6 +2432,9 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epson.epos2_printer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res" />
     </key>
@@ -2367,7 +2542,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914617181" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475560" />
+>>>>>>> Test
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2415,7 +2594,11 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914617181" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475560" />
+>>>>>>> Test
       </method>
     </configuration>
     <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
@@ -2611,7 +2794,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+<<<<<<< HEAD
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914617182" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513914475562" />
+>>>>>>> Test
       </method>
     </configuration>
     <list size="3">
@@ -2661,7 +2848,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513823396574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="this fix README.md">
+      <created>1513823924485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513823924485</updated>
+    </task>
+    <task id="LOCAL-00003" summary="this 封装打印类 直接调用">
+      <created>1513914390384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513914390384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2679,7 +2880,11 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Test
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51482797" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2693,12 +2898,20 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Test
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29774615" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Test
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2712,6 +2925,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2719,6 +2933,14 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Test
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2732,85 +2954,87 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="this all project" />
-    <option name="LAST_COMMIT_MESSAGE" value="this all project" />
+    <MESSAGE value="this fix README.md" />
+    <MESSAGE value="this 封装打印类 直接调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="this 封装打印类 直接调用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>287</line>
+          <line>305</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>288</line>
+          <line>306</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>133</line>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>134</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>131</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>146</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>427</line>
+          <line>445</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>384</line>
+          <line>402</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>448</line>
+          <line>466</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>450</line>
+          <line>468</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>125</line>
+          <line>140</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>406</line>
+          <line>424</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
-          <line>223</line>
+          <line>241</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -2850,12 +3074,31 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_at.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2881,6 +3124,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Test
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/SpnModelsItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2937,7 +3182,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2957,11 +3204,63 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <marker date="1513914487000" expanded="true" signature="628:635" ph="/**...*/" />
             <marker date="1513914487000" expanded="true" signature="22935:22962" ph="//..." />
             <marker date="1513914487000" expanded="true" signature="22935:22976" ph="{...}" />
             <marker date="1513914487000" expanded="true" signature="22935:22986" ph="{...}" />
             <marker date="1513914487000" expanded="true" signature="22935:22994" ph="{...}" />
+=======
+            <element signature="e#1664#1679#0" expanded="true" />
+            <element signature="e#1863#1900#0" expanded="true" />
+            <element signature="e#1964#2001#0" expanded="true" />
+            <element signature="e#2065#2102#0" expanded="true" />
+            <element signature="e#2166#2203#0" expanded="true" />
+            <element signature="e#2267#2306#0" expanded="true" />
+            <element signature="e#2372#2409#0" expanded="true" />
+            <element signature="e#2473#2510#0" expanded="true" />
+            <element signature="e#2574#2611#0" expanded="true" />
+            <element signature="e#2675#2712#0" expanded="true" />
+            <element signature="e#2776#2813#0" expanded="true" />
+            <element signature="e#2877#2914#0" expanded="true" />
+            <element signature="e#2978#3015#0" expanded="true" />
+            <element signature="e#3079#3116#0" expanded="true" />
+            <element signature="e#3180#3217#0" expanded="true" />
+            <element signature="e#3281#3320#0" expanded="true" />
+            <element signature="e#3386#3424#0" expanded="true" />
+            <element signature="e#3489#3527#0" expanded="true" />
+            <element signature="e#3592#3629#0" expanded="true" />
+            <element signature="e#3693#3732#0" expanded="true" />
+            <element signature="e#3960#3975#0" expanded="true" />
+            <element signature="e#4155#4183#0" expanded="true" />
+            <element signature="e#4248#4281#0" expanded="true" />
+            <element signature="e#4351#4383#0" expanded="true" />
+            <element signature="e#4452#4483#0" expanded="true" />
+            <element signature="e#4551#4582#0" expanded="true" />
+            <element signature="e#4650#4679#0" expanded="true" />
+            <element signature="e#4745#4779#0" expanded="true" />
+            <element signature="e#5881#5913#0" expanded="true" />
+            <element signature="e#19160#19161#0" expanded="true" />
+            <element signature="e#19248#19249#0" expanded="true" />
+            <element signature="e#19907#19950#0" expanded="true" />
+            <element signature="e#20036#20083#0" expanded="true" />
+            <element signature="e#20167#20213#0" expanded="true" />
+            <element signature="e#20300#20347#0" expanded="true" />
+            <element signature="e#20479#20525#0" expanded="true" />
+            <element signature="e#20674#20720#0" expanded="true" />
+            <element signature="e#20741#20789#0" expanded="true" />
+            <element signature="e#20884#20929#0" expanded="true" />
+            <element signature="e#21103#21147#0" expanded="true" />
+            <element signature="e#21172#21212#0" expanded="true" />
+            <element signature="e#21325#21369#0" expanded="true" />
+            <element signature="e#21394#21435#0" expanded="true" />
+            <element signature="e#21550#21594#0" expanded="true" />
+            <element signature="e#21619#21662#0" expanded="true" />
+            <element signature="e#21772#21819#0" expanded="true" />
+            <element signature="e#21931#21983#0" expanded="true" />
+            <element signature="e#22372#22425#0" expanded="true" />
+            <element signature="e#22532#22585#0" expanded="true" />
+>>>>>>> Test
           </folding>
         </state>
       </provider>
@@ -3022,7 +3321,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3080,6 +3381,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -3091,6 +3393,8 @@
         <state />
       </provider>
     </entry>
+=======
+>>>>>>> Test
     <entry file="jar://$PROJECT_DIR$/app/libs/ePOS2.jar!/com/epson/epos2/discovery/FilterOption.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -3120,6 +3424,7 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+<<<<<<< HEAD
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -3128,6 +3433,8 @@
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
+=======
+>>>>>>> Test
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
@@ -3166,6 +3473,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -3173,6 +3481,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Test
     <entry file="jar://$PROJECT_DIR$/app/libs/ePOS2.jar!/com/epson/epos2/Log.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -3196,14 +3506,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Test
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/device_filter.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ePOS2_Printer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+>>>>>>> Test
           <folding />
         </state>
       </provider>
@@ -3214,6 +3564,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
+<<<<<<< HEAD
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <marker date="1513914487000" expanded="true" signature="755:1349" ph="..." />
@@ -3223,32 +3574,69 @@
             <marker date="1513914487000" expanded="true" signature="1368:1530" ph="..." />
             <marker date="1513914487000" expanded="false" signature="1441:1460" ph="&quot;ePOS2 Printer&quot;" />
           </folding>
+=======
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <marker date="1513907575000" expanded="true" signature="783:1377" ph="..." />
+            <marker date="1513907575000" expanded="false" signature="851:870" ph="&quot;ePOS2 Printer&quot;" />
+            <marker date="1513907575000" expanded="true" signature="948:1214" ph="..." />
+            <marker date="1513907575000" expanded="false" signature="1469:1488" ph="&quot;ePOS2 Printer&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+>>>>>>> Test
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="247">
+          <caret line="89" column="40" lean-forward="false" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding />
+>>>>>>> Test
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ePOS2_Printer.iml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ShowMsg.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="110">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+=======
+        <state relative-caret-position="108">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="29" />
+>>>>>>> Test
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/App.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="286">
           <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+=======
+        <state relative-caret-position="733">
+          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+>>>>>>> Test
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ShowMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -3268,6 +3656,91 @@
             <marker date="1513914487000" expanded="true" signature="22935:22976" ph="{...}" />
             <marker date="1513914487000" expanded="true" signature="22935:22986" ph="{...}" />
             <marker date="1513914487000" expanded="true" signature="22935:22994" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1664#1679#0" expanded="true" />
+            <element signature="e#1863#1900#0" expanded="true" />
+            <element signature="e#1964#2001#0" expanded="true" />
+            <element signature="e#2065#2102#0" expanded="true" />
+            <element signature="e#2166#2203#0" expanded="true" />
+            <element signature="e#2267#2306#0" expanded="true" />
+            <element signature="e#2372#2409#0" expanded="true" />
+            <element signature="e#2473#2510#0" expanded="true" />
+            <element signature="e#2574#2611#0" expanded="true" />
+            <element signature="e#2675#2712#0" expanded="true" />
+            <element signature="e#2776#2813#0" expanded="true" />
+            <element signature="e#2877#2914#0" expanded="true" />
+            <element signature="e#2978#3015#0" expanded="true" />
+            <element signature="e#3079#3116#0" expanded="true" />
+            <element signature="e#3180#3217#0" expanded="true" />
+            <element signature="e#3281#3320#0" expanded="true" />
+            <element signature="e#3386#3424#0" expanded="true" />
+            <element signature="e#3489#3527#0" expanded="true" />
+            <element signature="e#3592#3629#0" expanded="true" />
+            <element signature="e#3693#3732#0" expanded="true" />
+            <element signature="e#3960#3975#0" expanded="true" />
+            <element signature="e#4155#4183#0" expanded="true" />
+            <element signature="e#4248#4281#0" expanded="true" />
+            <element signature="e#4351#4383#0" expanded="true" />
+            <element signature="e#4452#4483#0" expanded="true" />
+            <element signature="e#4551#4582#0" expanded="true" />
+            <element signature="e#4650#4679#0" expanded="true" />
+            <element signature="e#4745#4779#0" expanded="true" />
+            <element signature="e#5881#5913#0" expanded="true" />
+            <element signature="e#19160#19161#0" expanded="true" />
+            <element signature="e#19248#19249#0" expanded="true" />
+            <element signature="e#19907#19950#0" expanded="true" />
+            <element signature="e#20036#20083#0" expanded="true" />
+            <element signature="e#20167#20213#0" expanded="true" />
+            <element signature="e#20300#20347#0" expanded="true" />
+            <element signature="e#20479#20525#0" expanded="true" />
+            <element signature="e#20674#20720#0" expanded="true" />
+            <element signature="e#20741#20789#0" expanded="true" />
+            <element signature="e#20884#20929#0" expanded="true" />
+            <element signature="e#21103#21147#0" expanded="true" />
+            <element signature="e#21172#21212#0" expanded="true" />
+            <element signature="e#21325#21369#0" expanded="true" />
+            <element signature="e#21394#21435#0" expanded="true" />
+            <element signature="e#21550#21594#0" expanded="true" />
+            <element signature="e#21619#21662#0" expanded="true" />
+            <element signature="e#21772#21819#0" expanded="true" />
+            <element signature="e#21931#21983#0" expanded="true" />
+            <element signature="e#22372#22425#0" expanded="true" />
+            <element signature="e#22532#22585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/epson/epos2_printer/ReceiptPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="247" column="64" lean-forward="true" selection-start-line="247" selection-start-column="64" selection-end-line="247" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6702#6703#0" expanded="true" />
+            <element signature="e#6790#6791#0" expanded="true" />
+            <element signature="e#7304#7356#0" expanded="true" />
+            <element signature="e#7442#7498#0" expanded="true" />
+            <element signature="e#7582#7637#0" expanded="true" />
+            <element signature="e#7724#7780#0" expanded="true" />
+            <element signature="e#7912#7967#0" expanded="true" />
+            <element signature="e#8116#8171#0" expanded="true" />
+            <element signature="e#8192#8249#0" expanded="true" />
+            <element signature="e#8344#8398#0" expanded="true" />
+            <element signature="e#8572#8625#0" expanded="true" />
+            <element signature="e#8650#8699#0" expanded="true" />
+            <element signature="e#8812#8865#0" expanded="true" />
+            <element signature="e#8890#8940#0" expanded="true" />
+            <element signature="e#9055#9108#0" expanded="true" />
+            <element signature="e#9133#9185#0" expanded="true" />
+            <element signature="e#9295#9351#0" expanded="true" />
+            <element signature="e#9463#9524#0" expanded="true" />
+>>>>>>> Test
           </folding>
         </state>
       </provider>

@@ -13,17 +13,18 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import com.epson.epos2.Epos2Exception;
+import com.epson.epos2.Log;
 import com.epson.epos2.printer.Printer;
 import com.epson.epos2.printer.PrinterStatusInfo;
 import com.epson.epos2.printer.ReceiveListener;
-import com.epson.epos2.Epos2CallbackCode;
-import com.epson.epos2.Log;
 
 
 /**
+ * test
  * epson的底层已经为我们封装了printer方法，里面很多需要通过指令集操作的都被一一封装成了逐一的方法。详情请看打印
  */
 public class MainActivity extends Activity implements View.OnClickListener, ReceiveListener {
+    ReceiptPrinter receiptPrinter;
 
     private Context mContext = null;
     private EditText mEditTarget = null;
@@ -93,6 +94,19 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             ShowMsg.showException(e, "setLogSettings", mContext);
         }
         mEditTarget = (EditText) findViewById(R.id.edtTarget);
+        findViewById(R.id.btnTest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String json = "#CENTER\n" +
+                        "在線訂座入座終端編號(重印)\n" +
+                        "分店：紅磡漁港\n" +
+                        "終端編號：STATION\n";
+
+                ReceiptPrinter.getInstance().runPrintReceiptSequence(MainActivity.this, json);
+
+            }
+        });
     }
 
 
@@ -163,7 +177,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
     private boolean createReceiptData() {
         String method = "";
-        Bitmap logoData = BitmapFactory.decodeResource(getResources(), R.drawable.store);
+//        Bitmap logoData = BitmapFactory.decodeResource(getResources(), R.drawable.store);
 
         StringBuffer textData = new StringBuffer("BIG5");//繁体字符集BIG5  中文 GBK
         final int barcodeWidth = 2;
@@ -179,16 +193,19 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             method = "addTextAlign";
             mPrinter.addTextAlign(Printer.ALIGN_CENTER);
             mPrinter.addTextSize(Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT);
-            method = "addImage";
+            mPrinter.addText("在線訂座入座終端編號    174.81\n");
+            mPrinter.addText("在線訂座入座終端編號2    174.81\n");
+
+ /*           method = "addImage";
             //打印添加一个bitmap图片
-            mPrinter.addImage(logoData, 0, 0,
+          *//*  mPrinter.addImage(logoData, 0, 0,
                     logoData.getWidth(),
                     logoData.getHeight(),
                     Printer.COLOR_1,
                     Printer.MODE_MONO,
                     Printer.HALFTONE_DITHER,
                     Printer.PARAM_DEFAULT,
-                    Printer.COMPRESS_AUTO);
+                    Printer.COMPRESS_AUTO);*//*
 
             method = "addFeedLine";
             mPrinter.addFeedLine(1);//添加一行
@@ -262,7 +279,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             mPrinter.addText("取號時間取號時間 取號時間取號時間 取號時間取號時間\n ");
             mPrinter.addFeedLine(2);//空两行
             method = "addCut";
-            mPrinter.addCut(Printer.CUT_FEED);//裁切命令
+            mPrinter.addCut(Printer.CUT_FEED);//裁切命令*/
 
         } catch (Exception e) {
             ShowMsg.showException(e, method, mContext);
@@ -467,7 +484,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
         try {
             //连接 USB设备地址我的 EPSON TM-T88IV型号地址: USB:/dev/bus/usb/004/002  必须通过开启搜索设备设置连接机型
-            mPrinter.connect(mEditTarget.getText().toString(), Printer.PARAM_DEFAULT);
+//            mPrinter.connect(mEditTarget.getText().toString(), Printer.PARAM_DEFAULT);
+            mPrinter.connect(App.getPrinterTarget(), Printer.PARAM_DEFAULT);
         } catch (Exception e) {
             ShowMsg.showException(e, "connect fail", mContext);
             return false;
@@ -644,13 +662,13 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
                 updateButtonState(true);
 
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        //执行完之后断开当前打印
-                        disconnectPrinter();
-                    }
-                }).start();
+//                new Thread(new Runnable() {
+//                    @Override
+//                    public void run() {
+                //执行完之后断开当前打印
+                disconnectPrinter();
+//                    }
+//                }).start();
             }
         });
     }

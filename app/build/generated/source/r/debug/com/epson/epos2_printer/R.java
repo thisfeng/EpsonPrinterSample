@@ -24,17 +24,18 @@ public final class R {
     public static final int btnRestart=0x7f030003;
     public static final int btnSampleCoupon=0x7f030004;
     public static final int btnSampleReceipt=0x7f030005;
-    public static final int edtTarget=0x7f030006;
-    public static final int edtWarnings=0x7f030007;
-    public static final int linearLayout=0x7f030008;
-    public static final int lstReceiveData=0x7f030009;
-    public static final int spnLang=0x7f03000a;
-    public static final int spnModel=0x7f03000b;
-    public static final int textView=0x7f03000c;
-    public static final int txtLang=0x7f03000d;
-    public static final int txtList=0x7f03000e;
-    public static final int txtModel=0x7f03000f;
-    public static final int txtTarget=0x7f030010;
+    public static final int btnTest=0x7f030006;
+    public static final int edtTarget=0x7f030007;
+    public static final int edtWarnings=0x7f030008;
+    public static final int linearLayout=0x7f030009;
+    public static final int lstReceiveData=0x7f03000a;
+    public static final int spnLang=0x7f03000b;
+    public static final int spnModel=0x7f03000c;
+    public static final int textView=0x7f03000d;
+    public static final int txtLang=0x7f03000e;
+    public static final int txtList=0x7f03000f;
+    public static final int txtModel=0x7f030010;
+    public static final int txtTarget=0x7f030011;
   }
   public static final class layout {
     public static final int activity_discovery=0x7f040000;
