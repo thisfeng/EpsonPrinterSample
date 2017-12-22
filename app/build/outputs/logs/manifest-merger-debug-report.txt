@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-37:12
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:1-38:12
 		INJECTED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:2:11-69
@@ -56,7 +56,7 @@ ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_And
 	android:name
 		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:10:22-78
 application
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:12:5-35:19
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:12:5-36:19
 	android:label
 		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:15:9-41
 	android:icon
@@ -64,40 +64,42 @@ ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_And
 	android:allowBackup
 		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:16:9-28
 activity#com.epson.epos2_printer.MainActivity
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:17:9-29:20
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:18:9-30:20
 	android:screenOrientation
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:20:13-49
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:21:13-49
 	android:label
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:19:13-46
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:20:13-46
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED+android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:21:13-26:29
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:22:13-27:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:22:17-90
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:23:17-90
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:22:25-87
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:23:25-87
 action#android.intent.action.MAIN
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:26:27-74
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:27:13-28:57
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:28:13-29:57
 	android:resource
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:28:17-54
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:29:17-54
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:27:24-86
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:28:24-86
 activity#com.epson.epos2_printer.DiscoveryActivity
-ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:30:9-34:20
+ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:31:9-35:20
 	android:screenOrientation
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:33:13-49
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:34:13-49
 	android:label
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:32:13-46
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:33:13-46
 	android:name
-		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:31:13-46
+		ADDED from /Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/AndroidManifest.xml:32:13-46

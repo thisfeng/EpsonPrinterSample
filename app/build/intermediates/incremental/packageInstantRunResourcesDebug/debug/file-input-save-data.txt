@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 19 09:08:13 CST 2017
+#Thu Dec 21 16:39:45 CST 2017
 8.set=ANDROID_RESOURCE
 1.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 1.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/activity_main.xml
@@ -7,13 +7,13 @@
 3.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 4.set=ANDROID_RESOURCE
 5.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
-5.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-nodpi-v4/coffee.png
+5.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/list_at.xml
 7.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 7.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/activity_discovery.xml
 11.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-nodpi-v4/wmark.png
 11.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 9.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
-9.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
+9.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml
 11.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
 7.set=ANDROID_RESOURCE
@@ -27,9 +27,9 @@
 4.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/xml/device_filter.xml
 4.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 6.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
-6.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/list_at.xml
+6.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-nodpi-v4/coffee.png
 10.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
-10.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml
+10.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
 8.base=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_
 8.file=/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
 2.set=ANDROID_RESOURCE
