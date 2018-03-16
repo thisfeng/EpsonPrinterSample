@@ -1,4 +1,4 @@
-package com.epson.epos2_printer;
+package com.epson.epos2_printer.printer;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,6 +7,8 @@ import com.epson.epos2.Epos2Exception;
 import com.epson.epos2.printer.Printer;
 import com.epson.epos2.printer.PrinterStatusInfo;
 import com.epson.epos2.printer.ReceiveListener;
+import com.epson.epos2_printer.App;
+import com.epson.epos2_printer.R;
 
 /**
  * @author thisfeng
@@ -111,14 +113,26 @@ public class ReceiptPrinter implements ReceiveListener {
         try {
             //语言需要
             textData.append(datas);
-            mPrinter.addTextLang(Printer.LANG_ZH_TW);
-            method = "addTextAlign";
-            mPrinter.addTextAlign(Printer.ALIGN_CENTER);
-            mPrinter.addTextSize(Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT);
-//            mPrinter.addText(datas);
-            mPrinter.addText("在線訂座入座終端編號2    174.81\n");
-            mPrinter.addText(textData.toString());
 
+
+            mPrinter.addTextLang(Printer.LANG_ZH_TW);
+
+            method = "addTextAlign";
+
+            mPrinter.addTextAlign(Printer.ALIGN_CENTER);
+
+
+            mPrinter.addTextSize(Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT);
+
+            mPrinter.addText(datas);
+
+            //2D符號  二維碼MODEL_2才能掃碼識別  寬 3 to 16 ，默認3  高1～255  Size：0～65535
+            mPrinter.addSymbol("12321421", Printer.SYMBOL_QRCODE_MODEL_2, Printer.PARAM_DEFAULT, 9, 9, 0);
+            //空1行
+            mPrinter.addFeedLine(1);
+            mPrinter.addText("在線訂座入座終端編號2    174.81\n");
+            //空5行
+            mPrinter.addFeedLine(5);
         } catch (Exception e) {
             ShowMsg.showException(e, method, mContext);
             return false;

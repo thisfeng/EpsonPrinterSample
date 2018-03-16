@@ -7,6 +7,7 @@ import com.epson.epos2.discovery.DeviceInfo;
 import com.epson.epos2.discovery.Discovery;
 import com.epson.epos2.discovery.DiscoveryListener;
 import com.epson.epos2.discovery.FilterOption;
+import com.epson.epos2_printer.printer.ShowMsg;
 
 /**
  * @author thisfeng

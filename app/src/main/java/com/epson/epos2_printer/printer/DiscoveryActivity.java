@@ -1,4 +1,4 @@
-package com.epson.epos2_printer;
+package com.epson.epos2_printer.printer;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +18,7 @@ import com.epson.epos2.discovery.DiscoveryListener;
 import com.epson.epos2.discovery.FilterOption;
 import com.epson.epos2.discovery.DeviceInfo;
 import com.epson.epos2.Epos2Exception;
+import com.epson.epos2_printer.R;
 
 /**
  * 如果植入你的App时最好把开启搜索的代码 放入application中去初始化，获取到target之后记录并 停止搜索

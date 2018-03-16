@@ -1,4 +1,4 @@
-package com.epson.epos2_printer;
+package com.epson.epos2_printer.printer;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 
 import com.epson.epos2.Epos2Exception;
 import com.epson.epos2.Epos2CallbackCode;
+import com.epson.epos2_printer.R;
 
 public class ShowMsg {
     public static void showException(Exception e, String method, Context context) {

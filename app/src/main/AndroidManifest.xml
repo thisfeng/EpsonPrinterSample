@@ -29,7 +29,7 @@
                 android:resource="@xml/device_filter" />
         </activity>
         <activity
-            android:name=".DiscoveryActivity"
+            android:name=".printer.DiscoveryActivity"
             android:label="@string/app_title"
             android:screenOrientation="portrait" >
         </activity>

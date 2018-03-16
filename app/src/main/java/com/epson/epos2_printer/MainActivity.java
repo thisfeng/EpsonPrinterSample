@@ -17,6 +17,9 @@ import com.epson.epos2.Log;
 import com.epson.epos2.printer.Printer;
 import com.epson.epos2.printer.PrinterStatusInfo;
 import com.epson.epos2.printer.ReceiveListener;
+import com.epson.epos2_printer.printer.DiscoveryActivity;
+import com.epson.epos2_printer.printer.ReceiptPrinter;
+import com.epson.epos2_printer.printer.ShowMsg;
 
 
 /**
@@ -377,6 +380,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
             method = "addBarcode";
             mPrinter.addBarcode("01234567890", Printer.BARCODE_UPC_A, Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT, barcodeWidth, barcodeHeight);
+
+            mPrinter.addSymbol("12321421",Printer.SYMBOL_QRCODE_MODEL_1,Printer. PARAM_DEFAULT,100,100,100);
 
             method = "addPageEnd";
             mPrinter.addPageEnd();
