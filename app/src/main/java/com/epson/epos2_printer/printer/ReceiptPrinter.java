@@ -8,6 +8,7 @@ import com.epson.epos2.printer.Printer;
 import com.epson.epos2.printer.PrinterStatusInfo;
 import com.epson.epos2.printer.ReceiveListener;
 import com.epson.epos2_printer.App;
+import com.epson.epos2_printer.MainActivity;
 import com.epson.epos2_printer.R;
 
 /**
@@ -133,6 +134,44 @@ public class ReceiptPrinter implements ReceiveListener {
             mPrinter.addText("在線訂座入座終端編號2    174.81\n");
             //空5行
             mPrinter.addFeedLine(5);
+
+
+/*
+            //條形碼
+             mPrinter.addBarcode("012345678902",
+                        Printer.BARCODE_UPC_A,
+                        Printer.HRI_BELOW,
+                        Printer.FONT_A,
+                        2,
+                        100); //Width:2 to 6 ; Height:1 to 255
+                mPrinter.addBarcode("012345678902",
+                        Printer.BARCODE_UPC_E,
+                        Printer.HRI_BELOW,
+                        Printer.FONT_B,
+                        2,
+                        100); //Width:2 to 6 ; Height:1 to 255
+                mPrinter.addBarcode("012345678902",
+                        Printer.BARCODE_EAN13,
+                        Printer.HRI_BELOW,
+                        Printer.FONT_C,
+                        2,
+                        100); //Width:2 to 6 ; Height:1 to 255
+                mPrinter.addBarcode("0123456",
+                        Printer.BARCODE_EAN8,
+                        Printer.HRI_BELOW,
+                        Printer.FONT_D,
+                        2,
+                        100); //Width:2 to 6 ; Height:1 to 255
+                //BARCODE_CODE39 类型 数字长度为11～15  ；HRI_BELOW 位置  ;字体还是FONT_A默认大小最好看,FONT_C 小一点
+                mPrinter.addBarcode("012094578902215",
+                        Printer.BARCODE_CODE39,
+                        Printer.HRI_BELOW,
+                        Printer.FONT_A,
+                        2,
+                        100); //Width:2 to 6 ; Height:1 to 255
+                mPrinter.addText("力亨營業數" + "\n");
+                mPrinter.addFeedLine(1);
+                mPrinter.addCut(Printer.CUT_FEED);*/
         } catch (Exception e) {
             ShowMsg.showException(e, method, mContext);
             return false;
@@ -203,7 +242,7 @@ public class ReceiptPrinter implements ReceiveListener {
         try {
             //连接 USB设备地址我的 EPSON TM-T88IV型号地址: USB:/dev/bus/usb/004/002  必须通过开启搜索设备设置连接机型
 //            mPrinter.connect(mEditTarget.getText().toString(), Printer.PARAM_DEFAULT);
-            mPrinter.connect(App.getPrinterTarget(), Printer.PARAM_DEFAULT);
+            mPrinter.connect(MainActivity.getPrinterTarget(), Printer.PARAM_DEFAULT);
         } catch (Exception e) {
             ShowMsg.showException(e, "connect fail", mContext);
             return false;

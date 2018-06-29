@@ -1,11 +1,15 @@
 package com.epson.epos2_printer;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.hardware.usb.UsbManager;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -14,12 +18,18 @@ import android.widget.Spinner;
 
 import com.epson.epos2.Epos2Exception;
 import com.epson.epos2.Log;
+import com.epson.epos2.discovery.DeviceInfo;
+import com.epson.epos2.discovery.Discovery;
+import com.epson.epos2.discovery.DiscoveryListener;
+import com.epson.epos2.discovery.FilterOption;
 import com.epson.epos2.printer.Printer;
 import com.epson.epos2.printer.PrinterStatusInfo;
 import com.epson.epos2.printer.ReceiveListener;
 import com.epson.epos2_printer.printer.DiscoveryActivity;
 import com.epson.epos2_printer.printer.ReceiptPrinter;
 import com.epson.epos2_printer.printer.ShowMsg;
+
+import java.util.ArrayList;
 
 
 /**
@@ -34,6 +44,13 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
     private Spinner mSpnSeries = null;
     private Spinner mSpnLang = null;
     private Printer mPrinter = null;
+
+    /**
+     * USB打印机是否连接
+     */
+    public static boolean isConnectUsbPrint;
+
+    private static String printerTarget = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,6 +127,94 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
             }
         });
+    }
+
+
+    /**
+     * 在onResume()方法注册广播
+     */
+    @Override
+    protected void onResume() {
+
+        registerUsbReceiver();
+
+        super.onResume();
+    }
+
+    /**
+     * onPause()方法注销广播
+     */
+    @Override
+    protected void onPause() {
+        // USB监听广播
+        if (usbReceiver != null) {
+            unregisterReceiver(usbReceiver);
+        }
+
+        super.onPause();
+    }
+
+// TODO: 2018/6/29 在 USB 连接的广播监听中做 搜寻打印机的处理  比较合适
+
+    /**
+     * 注册监听USB连接状态
+     */
+    private void registerUsbReceiver() {
+        IntentFilter usbDeviceStateFilter = new IntentFilter();
+        usbDeviceStateFilter.addAction(UsbManager.ACTION_USB_DEVICE_ATTACHED);
+        usbDeviceStateFilter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
+        registerReceiver(usbReceiver, usbDeviceStateFilter);
+    }
+
+    BroadcastReceiver usbReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            //已连接
+            if (action.equals(UsbManager.ACTION_USB_DEVICE_ATTACHED)) {
+//                TS.show(getString(R.string.has_connect_usb));
+                isConnectUsbPrint = true;
+
+                FilterOption mFilterOption = new FilterOption();
+                mFilterOption.setDeviceType(Discovery.TYPE_PRINTER);
+                mFilterOption.setEpsonFilter(Discovery.FILTER_NAME);
+                try {
+                    Discovery.start(MainActivity.this, mFilterOption, new DiscoveryListener() {
+                        @Override
+                        public void onDiscovery(DeviceInfo deviceInfo) {
+//                    item.put("PrinterName", deviceInfo.getDeviceName());
+//                    item.put("Target", deviceInfo.getTarget());
+                            printerTarget = deviceInfo.getTarget();
+
+                            android.util.Log.d("target:", printerTarget);
+                            try {
+                                if (!TextUtils.isEmpty(printerTarget)) {
+                                    Discovery.stop();
+                                    android.util.Log.d("tarDiscoveryget:", "Discovery stop ");
+                                }
+                            } catch (Epos2Exception e) {
+                                if (e.getErrorStatus() != Epos2Exception.ERR_PROCESSING) {
+                                    ShowMsg.showException(e, "Discovery stop fail", getApplicationContext());
+                                }
+                            }
+                        }
+                    });
+                } catch (Exception e) {
+                    ShowMsg.showException(e, "search usb printer start failure", MainActivity.this);
+                }
+
+            }
+            if (action.equals(UsbManager.ACTION_USB_DEVICE_DETACHED)) {
+//                TS.show(getString(R.string.not_connect_usb));
+                isConnectUsbPrint = false;
+
+            }
+
+        }
+    };
+
+    public static String getPrinterTarget() {
+        return printerTarget;
     }
 
 
@@ -381,7 +486,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             method = "addBarcode";
             mPrinter.addBarcode("01234567890", Printer.BARCODE_UPC_A, Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT, barcodeWidth, barcodeHeight);
 
-            mPrinter.addSymbol("12321421",Printer.SYMBOL_QRCODE_MODEL_1,Printer. PARAM_DEFAULT,100,100,100);
+            mPrinter.addSymbol("12321421", Printer.SYMBOL_QRCODE_MODEL_1, Printer.PARAM_DEFAULT, 100, 100, 100);
 
             method = "addPageEnd";
             mPrinter.addPageEnd();
@@ -490,7 +595,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
         try {
             //连接 USB设备地址我的 EPSON TM-T88IV型号地址: USB:/dev/bus/usb/004/002  必须通过开启搜索设备设置连接机型
 //            mPrinter.connect(mEditTarget.getText().toString(), Printer.PARAM_DEFAULT);
-            mPrinter.connect(App.getPrinterTarget(), Printer.PARAM_DEFAULT);
+            mPrinter.connect(MainActivity.getPrinterTarget(), Printer.PARAM_DEFAULT);
         } catch (Exception e) {
             ShowMsg.showException(e, "connect fail", mContext);
             return false;
