@@ -21,8 +21,12 @@ import com.epson.epos2.Epos2Exception;
 import com.epson.epos2_printer.R;
 
 /**
- * 如果植入你的App时最好把开启搜索的代码 放入application中去初始化，获取到target之后记录并 停止搜索
- * 在开启打印的时候 运行MainActivity中的代码，封装整理一下即可很简单。
+ * 查询可用印机器，USB连接 或 IP连接 ，获取名称target即可
+ * <p>
+ * 1、如果植入你的App时最好把开启搜索的代码 放入USB广播监听中，获取到target之后记录并 停止搜索
+ * 不同的印机USB名称不同，规则：USB:/dev/bus/usb/001/002
+ * <p>
+ * 2、局域网内也可以使用IP打印， 将target名称为IP地址规则： TCP:192.168.90.66
  */
 public class DiscoveryActivity extends Activity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
