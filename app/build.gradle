@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.epson.epos2_printer"
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }

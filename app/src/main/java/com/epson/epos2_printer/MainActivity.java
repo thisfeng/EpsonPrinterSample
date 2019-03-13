@@ -114,6 +114,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             ShowMsg.showException(e, "setLogSettings", mContext);
         }
         mEditTarget = (EditText) findViewById(R.id.edtTarget);
+
+
         findViewById(R.id.btnTest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -228,6 +230,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             if (target != null) {
                 EditText mEdtTarget = (EditText) findViewById(R.id.edtTarget);
                 mEdtTarget.setText(target);
+                printerTarget = target;
             }
         }
     }
@@ -285,7 +288,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
     private boolean createReceiptData() {
         String method = "";
-//        Bitmap logoData = BitmapFactory.decodeResource(getResources(), R.drawable.store);
+        Bitmap logoData = BitmapFactory.decodeResource(getResources(), R.drawable.store);
 
         StringBuffer textData = new StringBuffer("BIG5");//繁体字符集BIG5  中文 GBK
         final int barcodeWidth = 2;
@@ -306,14 +309,14 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
  /*           method = "addImage";
             //打印添加一个bitmap图片
-          *//*  mPrinter.addImage(logoData, 0, 0,
+          */  mPrinter.addImage(logoData, 0, 0,
                     logoData.getWidth(),
                     logoData.getHeight(),
                     Printer.COLOR_1,
                     Printer.MODE_MONO,
                     Printer.HALFTONE_DITHER,
                     Printer.PARAM_DEFAULT,
-                    Printer.COMPRESS_AUTO);*//*
+                    Printer.COMPRESS_AUTO);
 
             method = "addFeedLine";
             mPrinter.addFeedLine(1);//添加一行
@@ -387,7 +390,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             mPrinter.addText("取號時間取號時間 取號時間取號時間 取號時間取號時間\n ");
             mPrinter.addFeedLine(2);//空两行
             method = "addCut";
-            mPrinter.addCut(Printer.CUT_FEED);//裁切命令*/
+            mPrinter.addCut(Printer.CUT_FEED);//裁切命令
 
         } catch (Exception e) {
             ShowMsg.showException(e, method, mContext);
