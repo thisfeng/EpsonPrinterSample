@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.epson.epos2.Epos2Exception;
 import com.epson.epos2.Log;
@@ -174,7 +175,9 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             String action = intent.getAction();
             //已连接
             if (action.equals(UsbManager.ACTION_USB_DEVICE_ATTACHED)) {
-//                TS.show(getString(R.string.has_connect_usb));
+
+                Toast.makeText(context, "USB 已經連接", Toast.LENGTH_SHORT).show();
+
                 isConnectUsbPrint = true;
 
                 FilterOption mFilterOption = new FilterOption();
@@ -207,7 +210,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
             }
             if (action.equals(UsbManager.ACTION_USB_DEVICE_DETACHED)) {
-//                TS.show(getString(R.string.not_connect_usb));
+                Toast.makeText(context, "USB 已經斷開", Toast.LENGTH_SHORT).show();
+
                 isConnectUsbPrint = false;
 
             }
@@ -290,7 +294,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
         String method = "";
         Bitmap logoData = BitmapFactory.decodeResource(getResources(), R.drawable.store);
 
-        StringBuffer textData = new StringBuffer("BIG5");//繁体字符集BIG5  中文 GBK
+        StringBuffer textData = new StringBuffer();
         final int barcodeWidth = 2;
         final int barcodeHeight = 100;
 
@@ -300,7 +304,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
         try {
             //语言需要
-            mPrinter.addTextLang(Printer.LANG_ZH_TW);
+            mPrinter.addTextLang(Printer.LANG_ZH_TW);////繁体字符集BIG5  中文 GBK
             method = "addTextAlign";
             mPrinter.addTextAlign(Printer.ALIGN_CENTER);
             mPrinter.addTextSize(Printer.PARAM_DEFAULT, Printer.PARAM_DEFAULT);
@@ -309,7 +313,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 
  /*           method = "addImage";
             //打印添加一个bitmap图片
-          */  mPrinter.addImage(logoData, 0, 0,
+          */
+            mPrinter.addImage(logoData, 0, 0,
                     logoData.getWidth(),
                     logoData.getHeight(),
                     Printer.COLOR_1,
@@ -378,14 +383,15 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
             textData.delete(0, textData.length());
             method = "addFeedLine";
             mPrinter.addFeedLine(2);
+
             method = "addBarcode";
-                   //BARCODE_CODE39 类型 数字长度为11～15  ；HRI_BELOW 位置  ;字体还是FONT_A默认大小最好看,FONT_C 小一点
-                mPrinter.addBarcode("012094578902215",
-                        Printer.BARCODE_CODE39,
-                        Printer.HRI_BELOW,
-                        Printer.FONT_A,
-                        2,
-                        100); //Width:2 to 6 ; Height:1 to 255
+            //BARCODE_CODE39 类型 数字长度为11～15  ；HRI_BELOW 位置  ;字体还是FONT_A默认大小最好看,FONT_C 小一点
+            mPrinter.addBarcode("012094578902215",
+                    Printer.BARCODE_CODE39,
+                    Printer.HRI_BELOW,
+                    Printer.FONT_A,
+                    2,
+                    100); //Width:2 to 6 ; Height:1 to 255
 
             mPrinter.addText("取號時間取號時間 取號時間取號時間 取號時間取號時間\n ");
             mPrinter.addFeedLine(2);//空两行
