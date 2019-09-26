@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/thisfeng/Downloads/ePOS_SDK_Android_v2.6.0/ePOS_SDK_Sample_Android/ePOS2_Printer/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

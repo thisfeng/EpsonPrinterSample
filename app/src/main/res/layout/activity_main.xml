@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="com.epson.epos2_printer.MainActivity" >
+    tools:context="com.epson.epos2_printer.MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -13,92 +13,92 @@
         android:weightSum="1">
 
         <Button
+            android:id="@+id/btnDiscovery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_discovery"
-            android:id="@+id/btnDiscovery" />
+            android:text="@string/btn_discovery" />
 
         <TextView
+            android:id="@+id/txtTarget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/title_target"
-            android:id="@+id/txtTarget"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:textColor="#000000"/>
+            android:text="@string/title_target"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
         <EditText
+            android:id="@+id/edtTarget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edtTarget"
             android:layout_marginBottom="10dp"
             android:text="@string/default_target" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/title_printerseries"
             android:id="@+id/txtModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_printerseries"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
         <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/spnModel"
-            android:gravity="left"
-            android:layout_marginBottom="5dp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/title_lang"
+            android:layout_marginBottom="5dp"
+            android:gravity="left" />
+
+        <TextView
             android:id="@+id/txtLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_lang"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
         <Spinner
+            android:id="@+id/spnLang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/spnLang"
-            android:gravity="left"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:gravity="left" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_samplereceipt"
             android:id="@+id/btnSampleReceipt"
-            android:layout_marginBottom="10dp" />
-
-        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btn_samplecoupon"
-            android:id="@+id/btnSampleCoupon" />
+            android:layout_marginBottom="10dp"
+            android:text="@string/btn_samplereceipt" />
+
+        <Button
+            android:id="@+id/btnSampleCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_samplecoupon" />
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/title_warnings"
-            android:id="@+id/textView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
         <EditText
             android:id="@+id/edtWarnings"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:inputType="none"
             android:enabled="false"
-            android:focusable="false" />
+            android:focusable="false"
+            android:inputType="none" />
 
         <Button
+            android:id="@+id/btnTest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="测试"
-            android:id="@+id/btnTest" />
+            android:text="测试" />
 
     </LinearLayout>
 
