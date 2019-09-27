@@ -183,6 +183,8 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
                 FilterOption mFilterOption = new FilterOption();
                 mFilterOption.setDeviceType(Discovery.TYPE_PRINTER);
                 mFilterOption.setEpsonFilter(Discovery.FILTER_NAME);
+                mFilterOption.setPortType(Discovery.PORTTYPE_USB);//开启此方式可以过滤掉当前网络中的其它TCP 印机，
+
                 try {
                     Discovery.start(MainActivity.this, mFilterOption, new DiscoveryListener() {
                         @Override
