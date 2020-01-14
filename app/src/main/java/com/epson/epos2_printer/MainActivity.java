@@ -183,7 +183,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
                 FilterOption mFilterOption = new FilterOption();
                 mFilterOption.setDeviceType(Discovery.TYPE_PRINTER);
                 mFilterOption.setEpsonFilter(Discovery.FILTER_NAME);
-                mFilterOption.setPortType(Discovery.PORTTYPE_USB);//开启此方式可以过滤掉当前网络中的其它TCP 印机，
+                mFilterOption.setPortType(Discovery.PORTTYPE_USB);//开启此方式可以过滤掉当前网络中的其它TCP 印机， //只search USB
 
                 try {
                     Discovery.start(MainActivity.this, mFilterOption, new DiscoveryListener() {
@@ -193,8 +193,12 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
 //                    item.put("Target", deviceInfo.getTarget());
                             printerTarget = deviceInfo.getTarget();
 
+                            //这里可以将 printerTarget 写入 SP 中，打印时从 SP 获取 此 进行连接； 搜索成功后 建议弹出Toast 提醒。
                             android.util.Log.d("target:", printerTarget);
-                            try {
+
+                         /*
+                           //不建议停止
+                           try {
                                 if (!TextUtils.isEmpty(printerTarget)) {
                                     Discovery.stop();
                                     android.util.Log.d("tarDiscoveryget:", "Discovery stop ");
@@ -203,7 +207,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Rece
                                 if (e.getErrorStatus() != Epos2Exception.ERR_PROCESSING) {
                                     ShowMsg.showException(e, "Discovery stop fail", getApplicationContext());
                                 }
-                            }
+                            }*/
                         }
                     });
                 } catch (Exception e) {
