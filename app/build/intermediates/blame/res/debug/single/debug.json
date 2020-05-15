@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/layout_list_at.xml.flat",
+        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/layout/list_at.xml"
+    },
+    {
         "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/layout_activity_discovery.xml.flat",
         "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/layout/activity_discovery.xml"
     },
@@ -12,32 +16,28 @@
         "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/drawable-nodpi_coffee.png.flat",
-        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/drawable-nodpi/coffee.png"
-    },
-    {
-        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/drawable-nodpi_wmark.png.flat",
-        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/drawable-nodpi/wmark.png"
-    },
-    {
-        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/layout_list_at.xml.flat",
-        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/layout/list_at.xml"
-    },
-    {
         "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/xml_device_filter.xml.flat",
         "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/drawable-nodpi_coffee.png.flat",
+        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/drawable-nodpi/coffee.png"
     },
     {
         "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/drawable-nodpi_wmark.png.flat",
+        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/drawable-nodpi/wmark.png"
+    },
+    {
         "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

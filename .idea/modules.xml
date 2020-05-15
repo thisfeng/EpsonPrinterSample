@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ePOS2_Printer.iml" filepath="$PROJECT_DIR$/ePOS2_Printer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ePOS2_Printer/app" />
+      <module fileurl="file://$PROJECT_DIR$/ePOS2_Printer.iml" filepath="$PROJECT_DIR$/ePOS2_Printer.iml" group="ePOS2_Printer" />
     </modules>
   </component>
 </project>

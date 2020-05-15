@@ -1,4 +1,0 @@
-#Thu Mar 14 09:27:33 CST 2019
-base.0=/Users/thisfeng/Android/WorkspaceDongWang/SDKS/ePOS2_Printer/app/build/intermediates/transforms/dexMerger/debug/3
-path.0=classes.dex
-renamed.0=classes.dex
