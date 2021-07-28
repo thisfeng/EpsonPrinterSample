@@ -2,6 +2,8 @@
 
 ###### See Issues if you have questions.
 
+[EPSON SDK](https://download.epson-biz.com/modules/pos/index.php?page=soft&scat=61&ml_lang=zh-Cn)
+
 CSDN [EPSON Printer 打印机 Sdk For Android](https://blog.csdn.net/a23006239/article/details/78871913)
 
 ##### EPOSN SDK 打印的步骤(Steps for EPOSN SDK printing)
