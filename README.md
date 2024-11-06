@@ -19,3 +19,8 @@ CSDN [EPSON Printer 打印机 Sdk For Android](https://blog.csdn.net/a23006239/a
 - 5 完成打印，清空命令缓冲区，关闭释放打印对象 。(Finish printing, clear the command buffer, and close the release print object.)
 
 ![image.png](http://upload-images.jianshu.io/upload_images/956862-ebab845196241808.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+2024 年 11 月 6 日。其实接完  USB 进行交互之后基本没有使用这种方式，在现有项目中，基本都是使用 网络的打印方式，通过Socket OutputStream 流的方式进行打印。 使用的是 ESC 指令的方式。 
+
